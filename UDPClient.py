@@ -1,6 +1,6 @@
 from socket import *
 
-serverName = 'hostname' # Replace with the server's IP address or hostname
+serverName = 'macbookpro.lan' # Replace with the server's IP address or hostname
 serverPort = 12000 # Replace with server's port number
 
 clientSocket = socket(AF_INET, SOCK_DGRAM) # Establish client's socket using port assigned by OS
